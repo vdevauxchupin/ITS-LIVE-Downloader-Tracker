@@ -9,3 +9,8 @@ To do that you NEED to have a glacier thickness tif, and a csv file with point's
 
 There are template files in the folder Example_Qdiv, which shows you how to organize your csv file (x in one column, y in the other).
 Just make sure your files are in the same projection as the datacubes you are using. 
+
+Output figures and files are stored and named based on the template:
+upscale_sdate_edate
+
+So if you run the strain for multiple upscales, the figures will be stored in the same folders but will have different names.
