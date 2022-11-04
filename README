@@ -1,4 +1,11 @@
 # Notebooks to download ITS-LIVE yearly and daily datacubes
 
 First: download files with the "Download_Cubes" notebook
-Second: run the Pixel_Tracker notebook
+Second: run the Tracker_Strains notebook
+
+
+IMPORTANT: In the Tracker_Strains notebook, you will have the option to calculate the flux divergence.
+To do that you NEED to have a glacier thickness tif, and a csv file with point's coordinates along the boundaries of the glacier.
+
+There are template files in the folder Example_Qdiv, which shows you how to organize your csv file (x in one column, y in the other).
+Just make sure your files are in the same projection as the datacubes you are using. 
