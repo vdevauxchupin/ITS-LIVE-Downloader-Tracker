@@ -35,7 +35,8 @@ However this process might add some download time to the notebook.
 ***Acknowledgments***
 
 The code is mostly a modification of https://github.com/nasa-jpl/its_live
-The data comes from [ITS_LIVE](https://its-live.jpl.nasa.gov/)
+The data comes from [ITS_LIVE](https://its-live.jpl.nasa.gov/).
+Special thanks to the ITS_LIVE team for making such a great dataset and sharing their code with everybody ! 
 
 
 ***References***
