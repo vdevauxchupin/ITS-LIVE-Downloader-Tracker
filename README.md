@@ -1,4 +1,4 @@
-# [ITS_LIVE](https://its-live.jpl.nasa.gov/)Datacube Downloader & Tracker/Strains Calculator
+# [ITS_LIVE](https://its-live.jpl.nasa.gov/) Datacube Downloader & Tracker/Strains Calculator
 
 **Hello !** This repo contains two notebooks that are allowing you to do 3 things:
 - Download ITS-LIVE yearly or "daily" datacubes
