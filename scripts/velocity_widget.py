@@ -629,9 +629,9 @@ class ITSLIVE:
                 self.plot_point_on_fig([lon, lat], "4326")
             if self.config["verbose"]:
                 print("Done. You can export the data.")
-            plt.get_current_fig_manager().canvas.set_window_title("")
-            self.ax.set_title("ITS_LIVE Ice Flow Speed m/yr")
-            self.fig.canvas.draw()
+            #plt.get_current_fig_manager().canvas.set_window_title("")
+            #self.ax.set_title("ITS_LIVE Ice Flow Speed m/yr")
+            #self.fig.canvas.draw()
 
             self._control_plot_button.disabled = False
             plt.close()
