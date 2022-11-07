@@ -30,3 +30,16 @@ So if you run the strain for multiple upscales, the figures will be stored in th
 I might integrate a Landsat/Sentinel image downloader which would grab the image of the AOI for which you want to track some pixels, 
 ideally from the same date at which you want to start the tracking. 
 However this process might add some download time to the notebook. 
+
+
+***Acknowledgments***
+
+The code is mostly a modification of https://github.com/nasa-jpl/its_live
+The data comes from [ITS_LIVE](https://its-live.jpl.nasa.gov/)
+
+
+***References***
+
+Velocity data generated using auto-RIFT (Gardner et al., 2018) and provided by the NASA MEaSUREs ITS_LIVE project (Gardner et al., 2022);
+
+Gardner, A. S., M. A. Fahnestock, and T. A. Scambos, 2019 [update to time of data download]: MEaSUREs ITS_LIVE Landsat Image-Pair Glacier and Ice Sheet Surface Velocities: Version 1. Data archived at National Snow and Ice Data Center. https://doi.org/10.5067/IMR9D3PEI28U
