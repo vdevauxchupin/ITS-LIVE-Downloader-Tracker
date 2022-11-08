@@ -1,4 +1,4 @@
-name: itslive-downloader-tracker
+name: itslive_downloader_tracker
 channels:
   - conda-forge
 dependencies:
