@@ -17,3 +17,4 @@ geopandas
 rasterio
 seaborn
 markdown
+fsspec[http]
