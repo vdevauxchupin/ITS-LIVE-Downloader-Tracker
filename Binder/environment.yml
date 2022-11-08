@@ -1,0 +1,29 @@
+name: itslive-downloader-tracker
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyterlab=3.3
+  - traitlets=5.0.5
+  - fiona
+  - ipyleaflet
+  - ipympl
+  - matplotlib-base
+  - pandas
+  - pyproj
+  - s3fs
+  - sidecar
+  - shapely
+  - xarray
+  - markdown
+  - voila
+  - zarr
+  - h5netcdf
+  - netcdf4
+  - psutil
+  - h5py
+  - gdal
+  - boto3
+  - geopandas
+  - rasterio
+  - seaborn
