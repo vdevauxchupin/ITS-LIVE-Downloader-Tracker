@@ -1,5 +1,9 @@
 # [ITS_LIVE](https://its-live.jpl.nasa.gov/) Datacube Downloader & Tracker/Strains Calculator
 
+To launch on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vdevauxchupin/ITS-LIVE-Downloader-Tracker/main)
+
+***Beware to not download files too big ! RAM is limited on Binder. ***
+
 **Hello !** This repo contains two notebooks that are allowing you to do 3 things:
 - Download ITS-LIVE yearly or "daily" datacubes
 - Track pixels' displacement according to their associated velocities
