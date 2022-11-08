@@ -7,7 +7,6 @@ psutil
 h5py
 zarr
 matplotlib
-gdal
 xarray
 boto3
 pyproj
