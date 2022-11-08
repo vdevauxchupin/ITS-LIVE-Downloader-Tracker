@@ -1,10 +1,10 @@
 # [ITS_LIVE](https://its-live.jpl.nasa.gov/) Datacube Downloader & Tracker/Strains Calculator
 
-To launch on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vdevauxchupin/ITS-LIVE-Downloader-Tracker/main)
+To try the code without downloading it: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vdevauxchupin/ITS-LIVE-Downloader-Tracker/main)
 
 ### Binder Users
-Beware to not download files too big ! RAM is limited on Binder.
-ALSO: there are already files downloaded for the Malaspina. If you want to try the code, you can also used the provided example to calculate flux divergence.
+Beware to not download files too big ! RAM is limited to 2Gb on Binder. 
+ALSO: there are already files downloaded for the Malaspina. Go ahead and try the flux divergence calculation !
 
 **Hello !** This repo contains two notebooks that are allowing you to do 3 things:
 - Download ITS-LIVE yearly or "daily" datacubes
