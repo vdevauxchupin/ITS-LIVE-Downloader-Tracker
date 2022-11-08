@@ -2,7 +2,9 @@
 
 To launch on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vdevauxchupin/ITS-LIVE-Downloader-Tracker/main)
 
-***Beware to not download files too big ! RAM is limited on Binder. ***
+### Binder Users
+Beware to not download files too big ! RAM is limited on Binder.
+ALSO: there are already files downloaded for the Malaspina. If you want to try the code, you can also used the provided example to calculate flux divergence.
 
 **Hello !** This repo contains two notebooks that are allowing you to do 3 things:
 - Download ITS-LIVE yearly or "daily" datacubes
