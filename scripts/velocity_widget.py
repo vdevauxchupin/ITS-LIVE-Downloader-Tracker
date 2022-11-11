@@ -170,12 +170,12 @@ class ITSLIVE:
                 "fillOpacity": 0.2,
                 "weight": 1,
                 "color": "red",
-                "cursor": "crosshair",
+                #"cursor": "crosshair",
             },
             hover_style={
                 "color": "white",
                 "dashArray": "0",
-                "fillOpacity": 0.5,
+                "fillOpacity": 0.1,
             },
         )
         self.map = ipyleaflet.Map(
@@ -194,6 +194,7 @@ class ITSLIVE:
 
         self.map.add_layer(self._map_picked_points_layer_group)
         self.map.add_layer(self._map_velocity_layer)
+        self.map.add_layer(self._map_coverage_layer)
         # wms = ipyleaflet.WMSLayer(url="https://integration.glims.org/geoserver/GLIMS/gwc/service",
         #                           name="GLIMS glacier outlines",
         #                           layers="GLIMS:GLIMS_GLACIERS",
