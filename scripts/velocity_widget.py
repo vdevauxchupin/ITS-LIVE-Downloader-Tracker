@@ -85,7 +85,7 @@ class ITSLIVE:
         self.rectangle_amount = 0
         self.path = os.getcwd()
         self.path_yearly_datacubes = ''
-        self.path_daily_datacubes = ''
+        self.path_subyearly_datacubes = ''
 
 
     # Functions
@@ -372,7 +372,7 @@ class ITSLIVE:
                 self.ymin_proj = min(boundaries[:,1])
                 self.ymax_proj = max(boundaries[:,1])         
                 self.path_yearly_datacubes = f'{self.path}/Datacubes/Yearly/{self.name_region[0]}/{self.xmin}_{self.ymin}_{self.xmax}_{self.ymax}/'
-                self.path_daily_datacubes = f'{self.path}/Datacubes/Daily/{self.name_region[0]}/{self.xmin}_{self.ymin}_{self.xmax}_{self.ymax}/'
+                self.path_subyearly_datacubes = f'{self.path}/Datacubes/Subyearly/{self.name_region[0]}/{self.xmin}_{self.ymin}_{self.xmax}_{self.ymax}/'
                 self.counter += 2      
 
     def _plot_by_satellite(self, ins3xr, point_v, point_xy, map_epsg):
