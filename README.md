@@ -1,10 +1,15 @@
 # [ITS_LIVE](https://its-live.jpl.nasa.gov/) Datacube Downloader & Tracker/Strains Calculator
 
+<br>
+
 To try the code without downloading it: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vdevauxchupin/ITS-LIVE-Downloader-Tracker/main)
 
 ### Binder Users
 Beware to not download files too big ! RAM is limited to 2Gb on Binder. 
 ALSO: there are already files downloaded for the Malaspina. Go ahead and try the flux divergence calculation !
+
+<br>
+<br>
 
 **Hello !** This repo contains two notebooks that are allowing you to do 3 things:
 - Download ITS-LIVE 'yearly' or 'subyearly' datacubes
@@ -20,6 +25,9 @@ you can choose to calculate strains for the entire date range or only a few year
 
 All the outputs generated will be saved in automatically generated folders.
 
+<br>
+<br>
+
 ***To calculate dynamic thinning/thickening:*** 
 In the "Tracker_Strains" notebook, you will have the option to calculate the flux divergence.
 To do that you ***NEED*** to have a glacier thickness .tif, and a .csv file with point's coordinates along the boundaries of the glacier.
@@ -32,11 +40,15 @@ upscale_sdate_edate
 
 So if you run the strain for multiple upscales, the figures will be stored in the same folders but will have different names.
 
+<br>
+<br>
+
 *Updates to come:*
 I might integrate a Landsat/Sentinel image downloader which would grab the image of the AOI for which you want to track some pixels, 
 ideally from the same date at which you want to start the tracking. 
 However this process might add some download time to the notebook. 
 
+<br>
 
 ***Acknowledgments***
 
@@ -44,6 +56,7 @@ The code is mostly a modification of https://github.com/nasa-jpl/its_live
 The data comes from [ITS_LIVE](https://its-live.jpl.nasa.gov/).
 Special thanks to the ITS_LIVE team for making such a great dataset and sharing their code with everybody ! 
 
+<br>
 
 ***References***
 
