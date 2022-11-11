@@ -7,16 +7,16 @@ Beware to not download files too big ! RAM is limited to 2Gb on Binder.
 ALSO: there are already files downloaded for the Malaspina. Go ahead and try the flux divergence calculation !
 
 **Hello !** This repo contains two notebooks that are allowing you to do 3 things:
-- Download ITS-LIVE yearly or "daily" datacubes
+- Download ITS-LIVE 'yearly' or 'subyearly' datacubes
 - Track pixels' displacement according to their associated velocities
 - Calculate strain rates for the entire datacubes
 
-I put "daily" in quote because the proper description of these cubes is: sub-yearly.
+The 'subyearly' datasets have variable time resolution. 
 You can have several datapoints for one day, none for months, etc... . The idea is that yearly and 
-sub-yearly datacubes are stored in two different places, which makes it two different dataset.
+subyearly datacubes are stored in two different places, which makes it two different dataset.
 
 All these operations are customizable spatially, but also temporally ! If you downloaded a yearly dataset from 1985 to 2020,
-you can choose to calculate strains for the entire date range or only a few years ! Same goes for the "daily" dataset.
+you can choose to calculate strains for the entire date range or only a few years ! Same goes for the "subyearly" dataset.
 
 All the outputs generated will be saved in automatically generated folders.
 
